@@ -1,0 +1,304 @@
+<html>
+
+<body>
+    <table id="TABLE1" language="javascript">
+        <tr>
+            <td colspan="2">
+                <strong>Add Event Page</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Event Title:
+            </td>
+            <td>
+                [Text Control]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Start Date:
+            </td>
+            <td>
+                [Calendar Control]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                End Date:
+            </td>
+            <td>
+                [Calendar Control]
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        <tr>
+            <td>Recurrence:
+            </td>
+            <td>
+                <input id="Radiobutton2" name="RepeatGroup" tabindex="9" type="radio" value="Radiobutton2" /><label
+                    for="Radiobutton2"><span style="font-size: 10pt; font-family: Verdana">Repeat</span></label>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<select id="lstRepeatType" class="textbox-medium" name="lstRepeatType"
+                    style="font-size: x-small; width: 100px; font-family: Verdana" tabindex="10">
+                    <option selected="selected" value="1">Every</option>
+                    <option value="2">Every Other</option>
+                    <option value="3">Every Third</option>
+                    <option value="4">Every Fourth</option>
+                </select>
+                <select id="lstEvery" class="textbox-medium" name="lstEvery" style="font-size: x-small;
+                        width: 66px; font-family: Verdana" tabindex="10">
+                    <option selected="selected" value="1">Day</option>
+                    <option value="2">Week</option>
+                    <option value="3">Month</option>
+                    <option value="4">Year</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                <INPUT id="RadioButton3" tabIndex=11 type=radio value="RadioButton3" name="RepeatGroup" /><span
+                    style="font-size: 10pt; font-family: Verdana">Repeat on the
+                    <select id="lstRepeatOn" class="textbox-middle" name="lstRepeatOn" style="font-size: x-small;
+        width: 68px; font-family: Verdana" tabindex="12">
+                        <option selected="selected" value="1">First</option>
+                        <option value="2">Second</option>
+                        <option value="3">Third</option>
+                        <option value="4">Fourth</option>
+                    </select>
+                </span>&nbsp;<select id="lstRepeatWeek" class="textbox-middle" name="lstRepeatWeek"
+                    style="font-size: x-small; width: 56px; font-family: Verdana" tabindex="13">
+                    <option selected="selected" value="0">Sun</option>
+                    <option value="1">Mon</option>
+                    <option value="2">Tue</option>
+                    <option value="3">Wed</option>
+                    <option value="4">Thu</option>
+                    <option value="5">Fri</option>
+                    <option value="6">Sat</option>
+                </select>
+                of the
+                <select id="lstRepeatMonth" class="textbox-middle" language="javascript" name="lstRepeatMonth" style="font-size: x-small; width: 80px;
+                        font-family: Verdana" tabindex="14">
+                    <option selected="selected" value="1">Month</option>
+                    <option value="3">3 Months</option>
+                    <option value="4">4 Months</option>
+                    <option value="6">6 Months</option>
+                    <option value="12">Year</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td><input type=button value="submit" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan=2>
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <strong>Event List Page</strong>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table>
+                    <tr>
+                        <td width="20">
+                            <strong>#</strong>
+                        </td>
+                        <td width="150">
+                            <strong>Title</strong>
+                        </td>
+                        <td width="250">
+                            <strong>Dates</strong>
+                        </td>
+                        <td width="250">
+                            <strong>Occurrence</strong>
+                        </td>
+                        <td width="200">
+                            <strong>Actions</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            Event 1
+                        </td>
+                        <td>
+                            2018-01-01 to 2018-12-31
+                        </td>
+                        <td>
+                            Every Day
+                        </td>
+                        <td>
+                            <button>View</button>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            2
+                        </td>
+                        <td>
+                            Event 2
+                        </td>
+                        <td>
+                            2018-04-25 to 2018-05-25
+                        </td>
+                        <td>
+                            Every Month
+                        </td>
+                        <td>
+                            <button>View</button>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            Event 3
+                        </td>
+                        <td>
+                            2020-11-01 to 2021-03-30
+                        </td>
+                        <td>
+                            Every First Sunday of the Month
+                        </td>
+                        <td>
+                            <button>View</button>
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan=2>
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <strong>Event View Page</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                [Event Title]
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                <table border=1>
+                    <tr>
+                        <td>
+                            Date
+                        </td>
+                        <td style="width: 100px">
+                            Day Name
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date
+                        </td>
+                        <td style="width: 100px">
+                            Day Name
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date
+                        </td>
+                        <td style="width: 100px">
+                            Day Name
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date
+                        </td>
+                        <td style="width: 100px">
+                            Day Name
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date
+                        </td>
+                        <td style="width: 100px">
+                            Day Name
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date
+                        </td>
+                        <td style="width: 100px">
+                            Day Name
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date
+                        </td>
+                        <td style="width: 100px">
+                            Day Name
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                Total Recurrence Event: [Totla Event Count]
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
